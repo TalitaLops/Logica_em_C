@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+  char nome [10] = "Talita";
+  printf("%s \n", nome);
+  return 0;
+}
+
+/*
+char = para palavras
+[] = limita as letras
+%s = para exibir as palavras
+*/
