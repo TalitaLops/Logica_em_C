@@ -10,6 +10,6 @@
     media = (n1 + n2) / 2;
     printf (" A média é: %.2f /n", media);
     
-    return(0);
+    return 0;
     
 }
