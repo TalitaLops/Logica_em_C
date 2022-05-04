@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main(void) {
+  printf("Eleições 2022\n");
+
+  printf("Digite seu nome: ");
+  char nome [15];
+  //gets(nome);
+  scanf("%[^\n]", nome);
+
+  printf("Digite a sua idade: ");
+  int idade;
+  scanf("%i", &idade);
+
+  char voto;
+  
+  if(idade >= 18){
+    printf("Seu voto é obrigatório. Você votou? \n");
+    scanf("%s", &voto);
+      if(voto == 's'){
+        printf(" %s votou com sucesso \n", nome);
+      } 
+      else {
+        printf("Você precisa votar ou pagar uma multa           \n");
+      }
+    }
+    else if (idade >= 16 && idade<18){
+    printf("Seu voto não é obrigatório. Você votou?         \n");
+    scanf("%s", &voto);
+      if(voto == 's'){
+        printf(" %s votou com sucesso \n", nome);
+      } 
+      else {
+        printf("Você não precisa votar nessa eleição             \n");
+      }
+    } 
+    else {
+    printf("Você não tem idade para votar \n");
+    }
+
+  return 0;
+}
+
+//Gets é usado para evitar uma falha/quebra na linha. Está substituindo o scanf("%[^\n]", nome);
