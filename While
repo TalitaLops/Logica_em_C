@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+  int cont = 0;
+  while(cont <= 10){
+    printf("%d \n", cont);
+    cont ++;
+  }
+    return 0;
+}
+
+-------------------------------------------------------------
+
+#include <stdio.h>
+
+int main(void) {
+  int cont = 1;
+  while(cont <= 10){
+    printf("Hello World \n");
+    cont ++;
+  }
+    return 0;
+}
+
+//A variavel de controle deve começar sempre em 1.
