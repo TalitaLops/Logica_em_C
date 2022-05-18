@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+  int cont = 1;
+  int number;
+  printf("Digite um numero entre 12 e 20 \n");
+  
+  while(cont <= 5){
+    scanf("%d", &number);
+    if( number > 12 && number < 20){
+      printf("O numero digitado está correto: %d \n", number);
+      break;
+    } else{
+      printf("Numero inválido \n");
+      printf("Digite um numero novamente \n");
+    cont ++;
+    }
+    
+  }
+    return 0;
+}
+
+//o comando break serve para interromper a execução de qualquer loop.
