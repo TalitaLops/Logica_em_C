@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+
+  int num, cont = 1;
+
+  printf("Digite um numero: ");
+  scanf("%d", &num);
+
+  printf("IMPARES \t PARES \n");
+
+  while (cont <= num){
+    
+    if(cont%2 == 1)
+      printf(" %d \t ",cont);
+    else 
+      printf("  \t %d \n",cont);
+    
+    cont++;
+  }
+  return 0;
+}
