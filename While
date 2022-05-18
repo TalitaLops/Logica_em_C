@@ -23,3 +23,58 @@ int main(void) {
 }
 
 //A variavel de controle deve começar sempre em 1.
+
+-------------------------------------------------------------
+
+#include <stdio.h>
+
+int main(void) {
+
+  int number;
+  do{
+    scanf("%d", &number);
+  } while (number > 2);
+  
+    return 0;
+}
+ ------------------------------------------------------------
+ IMPARES
+ 
+ #include <stdio.h>
+
+int main(void) {
+
+  int cont = 1;
+
+  while (cont <= 20) {
+    
+    if (cont%2 == 1)
+    printf("%d \n", cont);
+
+      cont ++;
+    
+  }
+  return 0;
+}
+
+------------------
+PARES 
+
+#include <stdio.h>
+
+int main(void) {
+
+  int cont = 1;
+
+  while (cont <= 20) {
+    
+    if (cont%2 == 0)
+    printf("%d \n", cont);
+
+      cont ++;
+    
+  }
+  return 0;
+}
+ 
+ 
