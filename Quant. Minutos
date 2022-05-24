@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int hora, minutos;
+
+  printf("Digite a hora (No formato de 24 horas): \n");
+  scanf("%d", &hora);
+
+  minutos = hora * 60;
+  printf("Já se passaram %.d minutos no dia.", minutos);
+  
+  return 0;
+}
+
+//#include <locale.h>
+//arquivo de cabeçalho onde se encontra a função setlocale que faz com que a função printf() mostre na tela(ecrã), os caracteres da Língua Portuguesa como á,ã,ç,ú,etc.
+// Como usar: setlocale(LC_ALL,"portuguese");
