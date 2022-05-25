@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  float notas[3];
+  float media = 0;
+  
+  int i=0;
+
+  while(i<3){
+    printf("Digite sua notas: \n");
+    scanf("%f", &notas[i]);
+
+    i++;
+  }
+  return 0;
+}
