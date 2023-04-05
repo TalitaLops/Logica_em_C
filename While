@@ -78,3 +78,30 @@ int main(void) {
 }
  
  
+--------------------------------------------------------------------------------
+EXERCICIOS
+
+1 - int main(void){
+      int i=1;
+      while (i<=100){
+        printf("%d \n", i);
+
+        i++;
+      }
+    
+    return 0; 
+  }
+
+2 - int main(void){
+      int i=50;
+      while (i<=100){
+        printf("%d \n", i);
+
+        i++;
+      }
+
+    return 0; 
+   }
+   
+
+ 
